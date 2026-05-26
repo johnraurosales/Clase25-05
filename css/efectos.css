@@ -1,0 +1,33 @@
+button {
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 2s, color 2s;
+
+}
+
+/*Seudoclases*/
+/*Cuando pasamos el mouse encima*/
+button:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+/*Cuando damos click*/
+button:active {
+    background-color: white;
+}
+
+/*Cuando ya hemos visitado un link*/
+a:visited {
+    color: goldenrod;
+}
+
+/*Cuando no hemos visitado el enlace*/
+a:link {
+    color: green;
+}
+
+/*Input*/
+

@@ -1,0 +1,58 @@
+/* 1. Reset Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fundamental para el Box Model */
+}
+
+/* 2. Variables de Diseño (Custom Properties) */
+:root {
+    --color-principal: #2d3436;
+    --color-acento: #0984e3;
+    --color-fondo: #f5f6fa;
+    --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    line-height: 1.6;
+    color: var(--color-principal);
+    background-color: var(--color-fondo);
+}
+
+
+header {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 2px solid var(--color-acento);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--color-acento); /* Pseudoclase que verás en la semana 2 */
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,29 @@
+p {
+    /* color de la letra */
+    color: green;
+    /* tamaño de letra */
+    font-size: 30px;
+    /* negrita */
+    font-weight: bold;
+    /* cursiva */
+    font-style: italic;
+    /* tipo de leta */
+    font-family: 'Candara';
+    /* alinear un texto */
+    text-align: justify;
+    /* cambiar el tamaño del largo o ancho */
+    width: 500px;
+    /* cambiar altura del elemento */
+    height: fit-content;
+    background-color: aqua;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.ejemplo {
+    color: red;
+}
+
+#unico {
+    color: blue;
+}
