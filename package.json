@@ -1,10 +1,28 @@
 {
-  "name": "Clase11",
+  "name": "clase11",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnraurosales/Clase25-05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/johnraurosales/Clase25-05/issues"
+  },
+  "homepage": "https://github.com/johnraurosales/Clase25-05#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0"
+  }
 }
