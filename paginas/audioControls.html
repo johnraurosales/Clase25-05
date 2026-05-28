@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accessible Controls</title>
+</head>
+<body>
+    <h1>Audio Controls</h1>
+
+    <button type="button" value="Button" id="button">Play</button>
+    <div>
+        <span id="volume-label">Volume</span>
+        <span id="volume-description">Adjust the sound level</span>
+        <input type="range" min="0" max="100" value="50" id="volume-slider"
+               aria-labelledby="volume-label volume-description">
+    </div>
+    <!--    <label for="volume-slider">Volume level</label>-->
+    <button type="button">Mute</button>
+</body>
+</html>
